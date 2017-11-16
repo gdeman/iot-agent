@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/release/xml/provider_paths.xml",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/release/xml/agent_device_admin.xml",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/xml/agent_device_admin.xml"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/release/xml/share_paths.xml",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/xml/share_paths.xml"
+    }
+]

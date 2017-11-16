@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/release/drawable-land-xxhdpi/banner.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-land-xxhdpi/banner.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/release/drawable-land-xxhdpi/splash_bg.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-land-xxhdpi/splash_bg.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/release/drawable-land-xxhdpi/ic_power.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-land-xxhdpi/ic_power.png"
+    }
+]

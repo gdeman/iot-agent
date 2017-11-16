@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mk/values-mk.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 195,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "/Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/res/values-mk/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 195,
+                        "endOffset": 480
+                    }
+                }
+            }
+        ]
+    }
+]

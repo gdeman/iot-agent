@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_logo.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_logo.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/wso2.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/wso2.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_bookmark.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_bookmark.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_lock_white_24dp.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_lock_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/repeat_bg.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/repeat_bg.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_notifications_white_24dp.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_notifications_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_logo_dark.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_logo_dark.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/splash_bg.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/splash_bg.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_download.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_download.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_power.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_power.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_warning_white_24dp.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_warning_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/banner.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/banner.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_error_outline_white_24dp.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_error_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_phone_ring.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxhdpi/ic_phone_ring.png"
+    }
+]

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/src/main/assets"/><source path="/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/src/debug/assets"/></dataSet></merger>

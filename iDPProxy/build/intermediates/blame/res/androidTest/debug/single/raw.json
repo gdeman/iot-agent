@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/res/merged/androidTest/debug/raw/keystore.bks",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/bundles/debug/res/raw/keystore.bks"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/res/merged/androidTest/debug/raw/truststore.bks",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/bundles/debug/res/raw/truststore.bks"
+    }
+]
