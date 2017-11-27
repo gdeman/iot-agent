@@ -146,7 +146,7 @@ public class FileDownloadService extends IntentService {
         editor.putInt(resources.getString(R.string.FILE_DOWNLOAD_ID), operation.getId());
         editor.putString(resources.getString(R.string.FILE_DOWNLOAD_STATUS), operation.getStatus());
         editor.putString(resources.getString(R.string.FILE_DOWNLOAD_RESPONSE), operation.getOperationResponse());
-        editor.apply();
+        editor.commit();
     }
 
     private void selectDownloadClient(String protocol, Operation operation, String host, String ftpUserName,

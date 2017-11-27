@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxxhdpi/kiosk_background.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxxhdpi/kiosk_background.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxxhdpi/kiosk_background_top.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxxhdpi/kiosk_background_top.png"
+    },
+    {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_notifications_white_24dp.png",
         "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxxhdpi/ic_notifications_white_24dp.png"
     },
@@ -14,6 +22,10 @@
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_error_outline_white_24dp.png",
         "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxxhdpi/ic_error_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxxhdpi/kiosk_background_bottom.png",
+        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable-xxxhdpi/kiosk_background_bottom.png"
     },
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_download.png",

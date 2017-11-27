@@ -21,6 +21,7 @@
     <color name="white">#ffffff</color>
     <color name="black">#606060</color>
     <color name="kioskBackground">#212121</color>
+    <color name="kioskButtonBackground">#DDFFFFFF</color>
 
     <color name="black_overlay">#66000000</color>
     <color name="colorPrimary">#ef6c00</color>
@@ -29,5 +30,6 @@
     <color name="colorButtonPressed">#e78535</color>
     <color name="colorButtonBorder">#C77627</color>
     <color name="topBannerText">#ffffffff</color>
+    <color name="india_yellow">#EFCA60</color>
 
 </resources>

@@ -30,7 +30,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.wso2.iot.agent.R;
-import org.wso2.iot.agent.activities.RegistrationActivity;
 import org.wso2.iot.agent.utils.Constants;
 import org.wso2.iot.agent.utils.Preference;
 
@@ -121,19 +120,19 @@ public class AppDrawerAdapter extends BaseAdapter {
     public void setAppList() {
         String appList = Preference.getString(context, Constants.KIOSK_APP_PACKAGE_NAME);
         String temp = Preference.getString(context, context.getResources().getString(R.string.app_install_status));
-        if (temp != null && temp != "") {
-            switch (temp) {
-                case APP_STATE_DOWNLOAD_STARTED:
-                case APP_STATE_DOWNLOAD_COMPLETED:
-                case APP_STATE_INSTALLED:
-                    if (appList != null && appList != "") {
-                        appList += "_" + NEW_APP;
-                    } else {
-                        appList = NEW_APP;
-                    }
-                    break;
-            }
-        }
+//        if (temp != null && temp != "") {
+//            switch (temp) {
+//                case APP_STATE_DOWNLOAD_STARTED:
+//                case APP_STATE_DOWNLOAD_COMPLETED:
+//                case APP_STATE_INSTALLED:
+//                    if (appList != null && appList != "") {
+//                        appList += "_" + NEW_APP;
+//                    } else {
+//                        appList = NEW_APP;
+//                    }
+//                    break;
+//            }
+//        }
         String[] appArr = appList.split(context.getString(R.string.kiosk_application_package_split_regex));
         this.appList = new ArrayList<>(Arrays.asList(appArr));
     }

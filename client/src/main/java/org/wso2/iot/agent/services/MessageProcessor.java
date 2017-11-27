@@ -319,7 +319,7 @@ public class MessageProcessor implements APIResultCallBack {
                 replyPayload.add(fileUpload);
                 SharedPreferences.Editor editor = prefs.edit();
                 editor.remove(resources.getString(R.string.FILE_UPLOAD_ID));
-                editor.apply();
+                editor.commit();
             }
 
             int downloadId = prefs.getInt(resources.getString(R.string.FILE_DOWNLOAD_ID), -1);
@@ -336,7 +336,7 @@ public class MessageProcessor implements APIResultCallBack {
                 SharedPreferences
                         .Editor editor = prefs.edit();
                 editor.remove(resources.getString(R.string.FILE_DOWNLOAD_ID));
-                editor.apply();
+                editor.commit();
             }
 
             requestParams = mapper.writeValueAsString(replyPayload);

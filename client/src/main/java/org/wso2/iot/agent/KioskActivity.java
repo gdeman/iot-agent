@@ -42,33 +42,29 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import org.wso2.iot.agent.adapters.AppDrawerAdapter;
 import org.wso2.iot.agent.api.ApplicationManager;
 import org.wso2.iot.agent.api.DeviceInfo;
-import org.wso2.iot.agent.api.DeviceState;
-import org.wso2.iot.agent.beans.Power;
 import org.wso2.iot.agent.events.EventRegistry;
 import org.wso2.iot.agent.events.listeners.KioskAppInstallationListener;
+import org.wso2.iot.agent.proxy.IdentityProxy;
 import org.wso2.iot.agent.services.LocalNotification;
 import org.wso2.iot.agent.services.kiosk.KioskMsgAlarmService;
 import org.wso2.iot.agent.utils.Constants;
 import org.wso2.iot.agent.utils.Preference;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Locale;
 
 public class KioskActivity extends Activity {
     private Context context;
-    private ImageView imageViewBatteryPlugged;
+//    private ImageView imageViewBatteryPlugged;
     private TextView textViewNoApps;
-    private TextView textViewTime;
-    private TextView textViewDate;
+//    private TextView textViewTime;
+//    private TextView textViewDate;
     private TextView textViewInitializingMsg;
-    private TextView textViewBattery;
+//    private TextView textViewBattery;
     private ProgressBar progressBarDeviceInitializing;
     private int kioskExit;
     private GridView gridView;
@@ -80,7 +76,7 @@ public class KioskActivity extends Activity {
     private Uri defaultRingtoneUri;
     private Ringtone defaultRingtone;
     private DeviceInfo deviceInfo;
-    private SeekBar seekBarBrightness;
+//    private SeekBar seekBarBrightness;
     private int brightness = 0;
     private static final int DEFAULT_FLAG = 0;
     private ResponseReceiver receiver;
@@ -95,16 +91,16 @@ public class KioskActivity extends Activity {
         Preference.putBoolean(getApplicationContext(),
                 Constants.PreferenceFlag.DEVICE_ACTIVE, true);
         TextView textViewKiosk = (TextView) findViewById(R.id.textViewKiosk);
-        textViewTime = (TextView) findViewById(R.id.textTime);
-        textViewDate = (TextView) findViewById(R.id.textViewDate);
-        textViewBattery = (TextView) findViewById(R.id.textViewBattery);
+//        textViewTime = (TextView) findViewById(R.id.textTime);
+//        textViewDate = (TextView) findViewById(R.id.textViewDate);
+//        textViewBattery = (TextView) findViewById(R.id.textViewBattery);
         textViewInitializingMsg = (TextView) findViewById(R.id.textViewInitializingMsg);
-        imageViewBatteryPlugged = (ImageView) findViewById(R.id.imageViewBattryPlugged);
+//        imageViewBatteryPlugged = (ImageView) findViewById(R.id.imageViewBattryPlugged);
         audio = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
         progressBarDeviceInitializing =
                 (ProgressBar) findViewById(R.id.progressBarDeviceInitializing);
-        seekBarBrightness = (SeekBar) findViewById(R.id.seekBarBrightness);
-        seekBarBrightness.setMax(255);
+//        seekBarBrightness = (SeekBar) findViewById(seekBarBrightness);
+//        seekBarBrightness.setMax(255);
         if (Constants.COSU_SECRET_EXIT) {
             textViewKiosk.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -127,33 +123,42 @@ public class KioskActivity extends Activity {
         registerReceiver(receiver, filter);
 
         //Brightness seekbar operation
-        try {
-            //Get the current system brightness state
-            brightness = android.provider.Settings.System.getInt(
-                    getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS);
-            seekBarBrightness.setProgress(brightness);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        seekBarBrightness.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+//        try {
+//            //Get the current system brightness state
+//            brightness = android.provider.Settings.System.getInt(
+//                    getContentResolver(), android.provider.Settings.System.SCREEN_BRIGHTNESS);
+//            seekBarBrightness.setProgress(brightness);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        seekBarBrightness.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+//
+//            @Override
+//            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+//                brightness = progress;
+//            }
+//
+//            @Override
+//            public void onStartTrackingTouch(SeekBar seekBar) {
+//
+//            }
+//
+//            @Override
+//            public void onStopTrackingTouch(SeekBar seekBar) {
+//                WindowManager.LayoutParams settings = getWindow().getAttributes();
+//                settings.screenBrightness = brightness;
+//                getWindow().setAttributes(settings);
+//            }
+//        });
 
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                brightness = progress;
-            }
+        //TODO: prevent lockscreen otherwise can access normal stuff when resuming from sleep
+        //TODO: prevent installation from unknown sources
+        //TODO: prevent debugging features
+        //TODO: prevent booting to safe mode
+        //TODO: access wifi
+        //TODO: install other apps that have been requested
+        //TODO: battery info
 
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                WindowManager.LayoutParams settings = getWindow().getAttributes();
-                settings.screenBrightness = brightness;
-                getWindow().setAttributes(settings);
-            }
-        });
 
         ComponentName component =
                 new ComponentName(KioskActivity.this, KioskAppInstallationListener.class);
@@ -212,15 +217,21 @@ public class KioskActivity extends Activity {
 
         if (!Preference.getBoolean(context, Constants.PreferenceFlag.DEVICE_INITIALIZED)) {
             textViewNoApps.setVisibility(View.INVISIBLE);
-            textViewInitializingMsg.setVisibility(View.VISIBLE);
-            progressBarDeviceInitializing.setVisibility(View.VISIBLE);
+            textViewInitializingMsg.setVisibility(View.INVISIBLE);
+            progressBarDeviceInitializing.setVisibility(View.INVISIBLE);
         }
-        displayDeviceInfo();
-        checkAndDisplayDeviceInitializing();
-        installKioskApp();
-        if (Preference.getBoolean(context.getApplicationContext(), Constants.AGENT_FRESH_START)) {
-            launchKioskAppIfExists();
-        }
+//        displayDeviceInfo();
+//        checkAndDisplayDeviceInitializing();
+
+        //TODO: show startup animation?  important if app not installed yet
+
+        //TODO: check if i-calQ is already installed, if installed, check if update is needed
+            installKioskApp();
+
+
+//        if (Preference.getBoolean(context.getApplicationContext(), Constants.AGENT_FRESH_START)) {
+//            launchKioskAppIfExists();
+//        }
 
     }
 
@@ -306,50 +317,50 @@ public class KioskActivity extends Activity {
         thread.start();
     }
 
-    private void displayDeviceInfo() {
-        Thread thread = new Thread() {
-            final DeviceState phoneState = new DeviceState(context);
-            Power power = phoneState.getBatteryDetails();
-            String time;
-            String date;
-
-            @Override
-            public void run() {
-                try {
-                    while (!isInterrupted()) {
-                        Thread.sleep(1000);
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                power = phoneState.getBatteryDetails();
-                                time = new SimpleDateFormat(Constants.LAUNCHER_TIME_FORMAT,
-                                        Locale.ENGLISH).format(Calendar.getInstance().getTime());
-                                date = new SimpleDateFormat(Constants.LAUNCHER_DATE_FORMAT,
-                                        Locale.ENGLISH).format(Calendar.getInstance().getTime());
-                                textViewTime.setText(Constants.LAUNCHER_TIME_LABEL + time);
-                                textViewDate.setText(Constants.LAUNCHER_DATE_LABEL + date);
-                                textViewBattery.setText(Constants.LAUNCHER_BATTERY_LABEL +
-                                        String.valueOf(power.getLevel()) +
-                                        Constants.LAUNCHER_PERCENTAGE_MARK);
-                                //Add an icon to indicate charging
-                                String plugged = power.getPlugged();
-                                if (plugged.equals(DeviceState.AC) ||
-                                        plugged.equals(DeviceState.CHARGING)) {
-                                    imageViewBatteryPlugged.setVisibility(View.VISIBLE);
-                                } else {
-                                    imageViewBatteryPlugged.setVisibility(View.INVISIBLE);
-                                }
-                                refreshAppDrawer();
-                            }
-                        });
-                    }
-                } catch (InterruptedException e) {
-                    Log.e(TAG, "Thread is interrupted");
-                }
-            }
-        };
-        thread.start();
-    }
+//    private void displayDeviceInfo() {
+//        Thread thread = new Thread() {
+//            final DeviceState phoneState = new DeviceState(context);
+//            Power power = phoneState.getBatteryDetails();
+//            String time;
+//            String date;
+//
+//            @Override
+//            public void run() {
+//                try {
+//                    while (!isInterrupted()) {
+//                        Thread.sleep(1000);
+//                        runOnUiThread(new Runnable() {
+//                            @Override
+//                            public void run() {
+//                                power = phoneState.getBatteryDetails();
+//                                time = new SimpleDateFormat(Constants.LAUNCHER_TIME_FORMAT,
+//                                        Locale.ENGLISH).format(Calendar.getInstance().getTime());
+//                                date = new SimpleDateFormat(Constants.LAUNCHER_DATE_FORMAT,
+//                                        Locale.ENGLISH).format(Calendar.getInstance().getTime());
+//                                textViewTime.setText(Constants.LAUNCHER_TIME_LABEL + time);
+//                                textViewDate.setText(Constants.LAUNCHER_DATE_LABEL + date);
+//                                textViewBattery.setText(Constants.LAUNCHER_BATTERY_LABEL +
+//                                        String.valueOf(power.getLevel()) +
+//                                        Constants.LAUNCHER_PERCENTAGE_MARK);
+//                                //Add an icon to indicate charging
+//                                String plugged = power.getPlugged();
+//                                if (plugged.equals(DeviceState.AC) ||
+//                                        plugged.equals(DeviceState.CHARGING)) {
+//                                    imageViewBatteryPlugged.setVisibility(View.VISIBLE);
+//                                } else {
+//                                    imageViewBatteryPlugged.setVisibility(View.INVISIBLE);
+//                                }
+//                                refreshAppDrawer();
+//                            }
+//                        });
+//                    }
+//                } catch (InterruptedException e) {
+//                    Log.e(TAG, "Thread is interrupted");
+//                }
+//            }
+//        };
+//        thread.start();
+//    }
 
     @Override
     public void onBackPressed() {
@@ -402,9 +413,10 @@ public class KioskActivity extends Activity {
     }
 
     private void installKioskApp() {
-        String appUrl = Preference.
-                getString(getApplicationContext(), Constants.KIOSK_APP_DOWNLOAD_URL);
+        String appUrl = org.wso2.iot.agent.BuildConfig.KIOSK_URL;
+//        Toast.makeText(context, "Kiosk App: " + appUrl, Toast.LENGTH_LONG).show();
         if (appUrl != null) {
+            IdentityProxy.getInstance().setContext(this);
             Preference.removePreference(getApplicationContext(), Constants.KIOSK_APP_DOWNLOAD_URL);
             ApplicationManager applicationManager =
                     new ApplicationManager(context.getApplicationContext());
@@ -473,6 +485,31 @@ public class KioskActivity extends Activity {
         }
         audio.setStreamVolume(AudioManager.STREAM_RING, ringerVolume, DEFAULT_FLAG);
         audio.setRingerMode(ringerMode);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case 1: {
+
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                    installKioskApp();
+                } else {
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                    Toast.makeText(KioskActivity.this, "Permission denied to read your External storage", Toast.LENGTH_SHORT).show();
+                }
+                return;
+            }
+
+            // other 'case' lines to check for other
+            // permissions this app might request
+        }
     }
 
 }

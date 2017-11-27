@@ -364,7 +364,7 @@ public abstract class OperationManager implements APIResultCallBack, VersionBase
         editor.putInt(resources.getString(R.string.FILE_UPLOAD_ID), operation.getId());
         editor.putString(resources.getString(R.string.FILE_UPLOAD_STATUS), operation.getStatus());
         editor.putString(resources.getString(R.string.FILE_UPLOAD_RESPONSE), operation.getOperationResponse());
-        editor.apply();
+        editor.commit();
     }
 
     /**

@@ -42,6 +42,7 @@ import android.provider.Browser;
 import android.support.v4.content.FileProvider;
 import android.util.Base64;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -63,6 +64,7 @@ import org.wso2.iot.agent.utils.AlarmUtils;
 import org.wso2.iot.agent.utils.AppInstallRequestUtil;
 import org.wso2.iot.agent.utils.CommonUtils;
 import org.wso2.iot.agent.utils.Constants;
+import org.wso2.iot.agent.utils.FileChooser;
 import org.wso2.iot.agent.utils.Preference;
 import org.wso2.iot.agent.utils.StreamHandler;
 
@@ -81,6 +83,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static android.security.KeyStore.getApplicationContext;
 
 /**
  * This class handles all the functionalities required for managing application
@@ -341,8 +345,9 @@ public class ApplicationManager {
         OutputStream out;
         String packageName = Preference.getString(context, Constants.PreferenceFlag.CURRENT_INSTALLING_APP);
         try {
-            File application = new File(fileUri.getPath());
-            in = new FileInputStream(application);
+            //File application = new File(fileUri.getPath());
+            in = new FileInputStream(FileChooser.getPath(context,fileUri));
+            //in = new FileInputStream(application);
             PackageInstaller packageInstaller = context.getPackageManager().getPackageInstaller();
             PackageInstaller.SessionParams params = new PackageInstaller.SessionParams(
                     PackageInstaller.SessionParams.MODE_FULL_INSTALL);
@@ -716,6 +721,8 @@ public class ApplicationManager {
      * @param url - APK Url should be passed in as a String.
      */
     private void downloadApp(String url) {
+
+//        Toast.makeText(context, "downloadApp", Toast.LENGTH_LONG).show();
         RequestQueue queue = null;
         try {
             queue = ServerUtilities.getCertifiedHttpClient();
@@ -736,8 +743,7 @@ public class ApplicationManager {
                                                resources.getString(R.string.application_mgr_download_location);
                             File file = new File(directory);
                             file.mkdirs();
-                            File outputFile = new File(file,
-                                               resources.getString(R.string.application_mgr_download_file_name));
+                            File outputFile = new File(file, resources.getString(R.string.application_mgr_download_file_name));
 
                             if (outputFile.exists()) {
                                 outputFile.delete();
@@ -765,6 +771,11 @@ public class ApplicationManager {
                                         context,
                                         context.getApplicationContext()
                                                 .getPackageName() + ".provider", new File(filePath));
+
+
+
+                                context.grantUriPermission(getApplicationContext()
+                                        .getPackageName(), apkURI, Intent.FLAG_GRANT_READ_URI_PERMISSION);
                                 triggerInstallation(apkURI);
 
                             } else {
@@ -773,6 +784,7 @@ public class ApplicationManager {
 
                         } catch (IOException e) {
                             String error = "File download/save failure in AppUpdator.";
+                            Toast.makeText(context, error, Toast.LENGTH_LONG).show();
                             Log.e(TAG, error, e);
                             Preference.putString(context, context.getResources().getString(
                                     R.string.app_install_status), context.getResources().getString(
@@ -781,6 +793,7 @@ public class ApplicationManager {
                                     R.string.app_install_failed_message), error);
                         } catch (IllegalArgumentException e) {
                             String error = "Error occurred while sending 'Get' request due to empty host name";
+                            Toast.makeText(context, error, Toast.LENGTH_LONG).show();
                             Log.e(TAG, error);
                             Preference.putString(context, context.getResources().getString(
                                     R.string.app_install_status), context.getResources().getString(
@@ -804,6 +817,7 @@ public class ApplicationManager {
             new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(context, error.toString(), Toast.LENGTH_LONG).show();
                     Log.e(TAG, error.toString());
                     Preference.putString(context, context.getResources().getString(
                             R.string.app_install_status), context.getResources().getString(
@@ -842,6 +856,7 @@ public class ApplicationManager {
                 Constants.RetryPolicy.DEFAULT_BACKOFF_MULT){
             public void retry(VolleyError error) throws VolleyError {
                 Log.w(TAG, "Retrying download the apk... " + getCurrentRetryCount());
+                Toast.makeText(context, "retrying download", Toast.LENGTH_LONG).show();
                 super.retry(error);
             }
         });

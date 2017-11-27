@@ -160,7 +160,7 @@ public class RefreshTokenHandler {
 				editor.putString(Constants.ACCESS_TOKEN, accessToken);
 				editor.putString(Constants.REFRESH_TOKEN, refreshToken);
 				editor.putLong(Constants.EXPIRE_TIME, expiresOn);
-				editor.apply();
+                editor.commit();
 
 				if (Constants.DEBUG_ENABLED) {
 					Log.d(TAG, "Token expires on:" + token.getExpiresOn().toString());

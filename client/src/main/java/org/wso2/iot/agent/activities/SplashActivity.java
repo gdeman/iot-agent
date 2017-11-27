@@ -24,7 +24,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
 import org.wso2.iot.agent.BuildConfig;
 import org.wso2.iot.agent.KioskActivity;
@@ -64,8 +63,8 @@ public class SplashActivity extends Activity {
                     BuildConfig.VERSION_NAME,
                     Calendar.getInstance().get(Calendar.YEAR)
             );
-            TextView textViewFooter = (TextView) findViewById(R.id.textViewFooter);
-            textViewFooter.setText(footerText);
+//            TextView textViewFooter = (TextView) findViewById(R.id.textViewFooter);
+//            textViewFooter.setText(footerText);
             View decorView = getWindow().getDecorView();
             // Hide the status bar.
             int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;

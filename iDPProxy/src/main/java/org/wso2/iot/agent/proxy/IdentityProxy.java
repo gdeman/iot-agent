@@ -114,7 +114,7 @@ public class IdentityProxy implements CallBack {
         editor.putString(Constants.CLIENT_ID, clientID);
         editor.putString(Constants.CLIENT_SECRET, clientSecret);
         editor.putString(Constants.TOKEN_ENDPOINT, info.getTokenEndPoint());
-        editor.apply();
+        editor.commit();
         setAccessTokenURL(info.getTokenEndPoint());
         AccessTokenHandler accessTokenHandler = new AccessTokenHandler(info, this);
         accessTokenHandler.obtainAccessToken();

@@ -20,10 +20,6 @@
         "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable/btn_orange_non_prominent.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/res/drawable/design_password_eye.xml"
-    },
-    {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/drawable/abc_ic_ab_back_material.xml"
     },
@@ -116,10 +112,6 @@
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
@@ -172,19 +164,11 @@
         "source": "/Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/mdm_logo.xml",
         "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/drawable/mdm_logo.xml"
     },
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
-        "source": "/Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/res/drawable/design_bottom_navigation_item_background.xml"
     }
 ]

@@ -22,7 +22,7 @@ public class Preference {
 				context.getSharedPreferences(Constants.AGENT_PACKAGE, Context.MODE_PRIVATE);
 		Editor editor = mainPref.edit();
 		editor.putString(key, value);
-		editor.apply();
+		editor.commit();
 	}
 
 	/**
@@ -47,7 +47,7 @@ public class Preference {
 				context.getSharedPreferences(Constants.AGENT_PACKAGE, Context.MODE_PRIVATE);
 		Editor editor = mainPref.edit();
 		editor.putFloat(key, value);
-		editor.apply();
+        editor.commit();
 	}
 
 	/**
@@ -72,7 +72,7 @@ public class Preference {
 				context.getSharedPreferences(Constants.AGENT_PACKAGE, Context.MODE_PRIVATE);
 		Editor editor = mainPref.edit();
 		editor.putInt(key, value);
-		editor.apply();
+        editor.commit();
 	}
 
 	/**
@@ -97,7 +97,7 @@ public class Preference {
 				context.getSharedPreferences(Constants.AGENT_PACKAGE, Context.MODE_PRIVATE);
 		Editor editor = mainPref.edit();
 		editor.putLong(key, value);
-		editor.apply();
+        editor.commit();
 	}
 
 	/**
@@ -122,7 +122,7 @@ public class Preference {
 				context.getSharedPreferences(Constants.AGENT_PACKAGE, Context.MODE_PRIVATE);
 		Editor editor = mainPref.edit();
 		editor.putBoolean(key, value);
-		editor.apply();
+        editor.commit();
 	}
 
 	/**
@@ -158,7 +158,7 @@ public class Preference {
 		if (mainPref.contains(key)) {
 			Editor editor = mainPref.edit();
 			editor.remove(key);
-			editor.apply();
+            editor.commit();
 		}
 	}
 

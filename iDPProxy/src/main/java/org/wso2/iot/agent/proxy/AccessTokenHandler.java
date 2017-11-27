@@ -195,7 +195,7 @@ public class AccessTokenHandler {
                     editor.putString(Constants.REFRESH_TOKEN, refreshToken);
                     editor.putString(USERNAME_LABEL, info.getUsername());
                     editor.putLong(Constants.EXPIRE_TIME, expiresOn);
-                    editor.apply();
+                    editor.commit();
 
                     if (Constants.DEBUG_ENABLED) {
                         Log.d(TAG, "Token expires on:" + token.getExpiresOn().toString());

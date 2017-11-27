@@ -108,20 +108,12 @@
         "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/layout/dialog_kiosk.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/layout/notification_action.xml"
-    },
-    {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
@@ -210,10 +202,6 @@
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",

@@ -28,7 +28,7 @@ android {
     buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "org.wso2.iot.agent"
-        minSdkVersion 17
+        minSdkVersion 23
         targetSdkVersion 25
         multiDexEnabled true
 
@@ -58,7 +58,7 @@ android {
             // Set DEFAULT_OWNERSHIP to null if no overriding is needed. Other possible values are,
             // BYOD or COPE. If you are using the mutual SSL authentication
             // This value must be set to a value other than null.
-            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COPE\""
+            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COSU\""
             //DEFAULT_HOST - Hardcode the server host to avoid having the user type it during
             //enrollment. If the user must type the hostname/IP during enrollment, leave it as null.
             buildConfigField "String", "DEFAULT_HOST", "\"https://iot.clevercoding.com\""
@@ -144,6 +144,7 @@ android {
             buildConfigField "long", "DEFAULT_INTERVAL", "300000"
             buildConfigField "int", "DEFAULT_LISTENER_CODE", "10001"
             // COSU related configurations.
+            buildConfigField "String", "KIOSK_URL", "\"https://www.clevercoding.com/adhocs/i-calQ/tSHShell-india-release-2017-11-21.apk\""
             // ALLOW_MULTIPLE_APPS_IN_COSU_MODE: Set to true to make all installed app in COSU mode
             // accessible; if false only the last installation will be accessible.
             buildConfigField "boolean", "ALLOW_MULTIPLE_APPS_IN_COSU_MODE", "false"
@@ -179,7 +180,7 @@ android {
             // Set DEFAULT_OWNERSHIP to null if no overriding is needed. Other possible values are,
             // BYOD or COPE. If you are using the mutual SSL authentication
             // This value must be set to a value other than null.
-            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COPE\""
+            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COSU\""
             //DEFAULT_HOST - Hardcode the server host to avoid having the user type it during
             //enrollment. If the user must type the hostname/IP during enrollment, leave it as null.
             buildConfigField "String", "DEFAULT_HOST", "\"https://iot.clevercoding.com\""
@@ -265,6 +266,7 @@ android {
             buildConfigField "long", "DEFAULT_INTERVAL", "300000"
             buildConfigField "int", "DEFAULT_LISTENER_CODE", "10001"
             // COSU related configurations.
+            buildConfigField "String", "KIOSK_URL", "\"https://www.clevercoding.com/adhocs/i-calQ/tSHShell-india-release-2017-11-21.apk\""
             // ALLOW_MULTIPLE_APPS_IN_COSU_MODE: Set to true to make all installed app in COSU mode
             // accessible; if false only the last installation will be accessible.
             buildConfigField "boolean", "ALLOW_MULTIPLE_APPS_IN_COSU_MODE", "false"
@@ -303,7 +305,7 @@ android {
             // Set DEFAULT_OWNERSHIP to null if no overriding is needed. Other possible values are,
             // BYOD or COPE. If you are using the mutual SSL authentication
             // This value must be set to a value other than null.
-            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COPE\""
+            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COSU\""
             //DEFAULT_HOST - Hardcode the server host to avoid having the user type it during
             //enrollment. If the user must type the hostname/IP during enrollment, leave it as null.
             buildConfigField "String", "DEFAULT_HOST", "\"https://iot.clevercoding.com\""
@@ -389,6 +391,7 @@ android {
             buildConfigField "long", "DEFAULT_INTERVAL", "300000"
             buildConfigField "int", "DEFAULT_LISTENER_CODE", "10001"
             // COSU related configurations.
+            buildConfigField "String", "KIOSK_URL", "\"https://www.clevercoding.com/adhocs/i-calQ/tSHShell-india-release-2017-11-21.apk\""
             // ALLOW_MULTIPLE_APPS_IN_COSU_MODE: Set to true to make all installed app in COSU mode
             // accessible; if false only the last installation will be accessible.
             buildConfigField "boolean", "ALLOW_MULTIPLE_APPS_IN_COSU_MODE", "false"
@@ -427,7 +430,7 @@ android {
             // Set DEFAULT_OWNERSHIP to null if no overriding is needed. Other possible values are,
             // BYOD or COPE. If you are using the mutual SSL authentication
             // This value must be set to a value other than null.
-            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COPE\""
+            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COSU\""
             //DEFAULT_HOST - Hardcode the server host to avoid having the user type it during
             //enrollment. If the user must type the hostname/IP during enrollment, leave it as null.
             buildConfigField "String", "DEFAULT_HOST", "\"https://iot.clevercoding.com\""
@@ -485,7 +488,7 @@ android {
             // LOG_PUBLISHER_IN_USE: By default DAS_PUBLISHER or SPLUNK_PUBLISHER are the allowed
             // values. This specifies the log publisher to be used. This can be extended to write
             // custom publishers.
-            buildConfigField "String", "LOG_PUBLISHER_IN_USE", "\"<SET_PUBLISHER>\""
+            buildConfigField "String", "LOG_PUBLISHER_IN_USE", "\"DAS_PUBLISHER\""
             // LOG_LEVEL: When publishing log cat output to server, the log level tobe used.
             buildConfigField "String", "LOG_LEVEL", "\"*:W\""
             // NUMBER_OF_LOG_LINES: Number of log lines to be sent.
@@ -500,10 +503,10 @@ android {
             // If set to true, registered events will be published to DAS. There are two event
             // publisher available by default and custom event types can be written and published
             // with the provided extension points.
-            buildConfigField "boolean", "EVENT_LISTENING_ENABLED", "false"
+            buildConfigField "boolean", "EVENT_LISTENING_ENABLED", "true"
             // Listening to application state changes such as an app getting installed, uninstalled,
             // upgraded and data cleared. If set to true, events will be published.
-            buildConfigField "boolean", "APPLICATION_STATE_LISTENER", "false"
+            buildConfigField "boolean", "APPLICATION_STATE_LISTENER", "true"
             // This is to listen to Runtime information such as CPU. If set to true,
             // events will be published.
             buildConfigField "boolean", "RUNTIME_STATE_LISTENER", "false"
@@ -513,6 +516,7 @@ android {
             buildConfigField "long", "DEFAULT_INTERVAL", "300000"
             buildConfigField "int", "DEFAULT_LISTENER_CODE", "10001"
             // COSU related configurations.
+            buildConfigField "String", "KIOSK_URL", "\"https://www.clevercoding.com/adhocs/i-calQ/tSHShell-india-release-2017-11-21.apk\""
             // ALLOW_MULTIPLE_APPS_IN_COSU_MODE: Set to true to make all installed app in COSU mode
             // accessible; if false only the last installation will be accessible.
             buildConfigField "boolean", "ALLOW_MULTIPLE_APPS_IN_COSU_MODE", "false"
@@ -549,10 +553,10 @@ android {
             // Set DEFAULT_OWNERSHIP to null if no overriding is needed. Other possible values are,
             // BYOD or COPE. If you are using the mutual SSL authentication
             // This value must be set to a value other than null.
-            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COPE\""
+            buildConfigField "String", "DEFAULT_OWNERSHIP", "\"COSU\""
             //DEFAULT_HOST - Hardcode the server host to avoid having the user type it during
             //enrollment. If the user must type the hostname/IP during enrollment, leave it as null.
-            buildConfigField "String", "DEFAULT_HOST", "\"https://iot.clevercoding.com\""
+            buildConfigField "String", "DEFAULT_HOST", "\"https://iot.clevercoding.com:9443\""
             // APP_MANAGER_HOST: If the App store host is different from the DEFAULT_HOST
             // change this value.
             buildConfigField "String", "APP_MANAGER_HOST", "null"
@@ -573,7 +577,7 @@ android {
             // System service specific configurations.
             // SYSTEM_APP_ENABLED: This is to set if the system app will also be installed.
             // If this is set org.wso2.emm.system.service must also be available in the device.
-            buildConfigField "boolean", "SYSTEM_APP_ENABLED", "false"
+            buildConfigField "boolean", "SYSTEM_APP_ENABLED", "true"
             // SYSTEM_SERVICE_PACKAGE: If system service app is in use, the package name of it is
             // defined here so that the agent knows the package name of the system service to
             // contact.
@@ -585,19 +589,19 @@ android {
             // AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED: This is to specify if the enrollment
             // will be done in a background service. This is typically related to mutual SSL based
             // enrollments only.
-            buildConfigField "boolean", "AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED", "true"
+            buildConfigField "boolean", "AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED", "false"
             // SKIP_LICENSE: Skip displaying the license policy during enrollment.
             // This is recommended to be used in conjunction with
             // AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED
-            buildConfigField "boolean", "SKIP_LICENSE", "true"
+            buildConfigField "boolean", "SKIP_LICENSE", "false"
             // HIDE_LOGIN_UI: Skip displaying the login screen during enrollment.
             // This is recommended to be used in conjunction with
             // AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED
-            buildConfigField "boolean", "HIDE_LOGIN_UI", "true"
+            buildConfigField "boolean", "HIDE_LOGIN_UI", "false"
             // SKIP_WORK_PROFILE_CREATION: This will hide the work profile creation step from the
             // user. This is recommended to be used in conjunction with
             // AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED
-            buildConfigField "boolean", "SKIP_WORK_PROFILE_CREATION", "true"
+            buildConfigField "boolean", "SKIP_WORK_PROFILE_CREATION", "false"
             // HIDE_ERROR_DIALOG: If this is set to true, agent will not show any error messages.
             // This is only recommended to use when the enrollment happens in background, and no
             // user interaction is needed. i.e in conjunction with
@@ -607,7 +611,7 @@ android {
             // LOG_PUBLISHER_IN_USE: By default DAS_PUBLISHER or SPLUNK_PUBLISHER are the allowed
             // values. This specifies the log publisher to be used. This can be extended to write
             // custom publishers.
-            buildConfigField "String", "LOG_PUBLISHER_IN_USE", "\"<SET_PUBLISHER>\""
+            buildConfigField "String", "LOG_PUBLISHER_IN_USE", "\"DAS_PUBLISHER\""
             // LOG_LEVEL: When publishing log cat output to server, the log level tobe used.
             buildConfigField "String", "LOG_LEVEL", "\"*:W\""
             // NUMBER_OF_LOG_LINES: Number of log lines to be sent.
@@ -635,9 +639,10 @@ android {
             buildConfigField "long", "DEFAULT_INTERVAL", "300000"
             buildConfigField "int", "DEFAULT_LISTENER_CODE", "10001"
             // COSU related configurations.
+            buildConfigField "String", "KIOSK_URL", "\"https://www.clevercoding.com/adhocs/i-calQ/tSHShell-india-release-2017-11-21.apk\""
             // ALLOW_MULTIPLE_APPS_IN_COSU_MODE: Set to true to make all installed app in COSU mode
             // accessible; if false only the last installation will be accessible.
-            buildConfigField "boolean", "ALLOW_MULTIPLE_APPS_IN_COSU_MODE", "false"
+            buildConfigField "boolean", "ALLOW_MULTIPLE_APPS_IN_COSU_MODE", "true"
             // By enabling this button, data wipe can be performed on a device without having to
             // issue a remote wipe operation.
             buildConfigField "boolean", "DISPLAY_WIPE_DEVICE_BUTTON", "true"

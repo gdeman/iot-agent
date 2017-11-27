@@ -23,7 +23,7 @@
     android:versionName="3.1.21" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="23"
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -252,6 +252,7 @@
 
         <activity
             android:name="org.wso2.iot.agent.KioskActivity"
+            android:screenOrientation="sensorPortrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         <activity
             android:name="org.wso2.iot.agent.activities.SplashActivity"

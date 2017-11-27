@@ -1270,13 +1270,13 @@ public class AuthenticationActivity extends AppCompatActivity implements APIAcce
 			apiRegistrationProfile.setTags(SUBSCRIBED_API);
 			DynamicClientManager dynamicClientManager = new DynamicClientManager();
 			try {
-				if (adminAccessToken != null) {
-					dynamicClientManager.getClientCredentials(adminAccessToken, utils, context,
+//				if (adminAccessToken != null) {
+//					dynamicClientManager.getClientCredentials(adminAccessToken, utils, context,
+//							AuthenticationActivity.this, apiRegistrationProfile);
+//				} else {
+					dynamicClientManager.getClientCredentials(Constants.COSU_USERNAME, Constants.COSU_PASSWORD, utils, context,
 							AuthenticationActivity.this, apiRegistrationProfile);
-				} else {
-					dynamicClientManager.getClientCredentials(usernameVal, passwordVal, utils, context,
-							AuthenticationActivity.this, apiRegistrationProfile);
-				}
+//				}
 				Preference.putString(context, Constants.CLIENT_NAME, applicationName);
 			} catch (AndroidAgentException e) {
 				String message = "Client credentials generation failed";

@@ -85,7 +85,7 @@ public class AgentStartupReceiver extends BroadcastReceiver {
         }
         if (Intent.ACTION_BOOT_COMPLETED.equals(action) || Constants.AGENT_UPDATED_BROADCAST_ACTION.equals(action)) {
             if (Constants.OWNERSHIP_COSU.equals(Constants.DEFAULT_OWNERSHIP)) {
-                Preference.putBoolean(context.getApplicationContext(), Constants.AGENT_FRESH_START, true);
+                Preference.putBoolean(context.getApplicationContext(), Constants.AGENT_FRESH_START, false);
                 Intent i = new Intent(context, SplashActivity.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(i);

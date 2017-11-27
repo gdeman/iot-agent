@@ -9,13 +9,36 @@
     android:launchMode="singleTask"
     android:background="@color/white"
     tools:context="org.wso2.iot.agent.KioskActivity">
-    <include
-        android:id="@+id/top_banner"
-        layout="@layout/top_banner_kiosk"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/background_top"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:src="@drawable/kiosk_background_top"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
+    />
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/background_top"
+        android:layout_above="@+id/background_bottom"
+        android:src="@drawable/kiosk_background"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
         />
+    <ImageView
+        android:id="@+id/background_bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/kiosk_background_bottom"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
+        />
+
     <Button
         android:text="Exit"
         android:layout_width="wrap_content"
@@ -51,6 +74,8 @@
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/background_top"
+        android:layout_above="@+id/background_bottom"
         android:columnWidth="90dp"
         android:numColumns="auto_fit"
         android:verticalSpacing="10dp"
@@ -63,8 +88,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:listSelector="@android:color/transparent"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/top_banner" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="@string/wso2"
