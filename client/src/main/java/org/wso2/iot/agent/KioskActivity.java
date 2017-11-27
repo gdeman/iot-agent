@@ -59,15 +59,20 @@ import org.wso2.iot.agent.utils.Preference;
 
 public class KioskActivity extends Activity {
     private Context context;
-//    private ImageView imageViewBatteryPlugged;
+    //    private ImageView imageViewBatteryPlugged;
     private TextView textViewNoApps;
-//    private TextView textViewTime;
+    private Button bWifi;
+    //    private TextView textViewTime;
 //    private TextView textViewDate;
     private TextView textViewInitializingMsg;
-//    private TextView textViewBattery;
+    //    private TextView textViewBattery;
+
+
     private ProgressBar progressBarDeviceInitializing;
-    private int kioskExit;
     private GridView gridView;
+
+
+    private int kioskExit;
     private AppDrawerAdapter appDrawerAdapter;
     private final String TAG = KioskActivity.class.getSimpleName();
     private AudioManager audio;
@@ -76,7 +81,7 @@ public class KioskActivity extends Activity {
     private Uri defaultRingtoneUri;
     private Ringtone defaultRingtone;
     private DeviceInfo deviceInfo;
-//    private SeekBar seekBarBrightness;
+    //    private SeekBar seekBarBrightness;
     private int brightness = 0;
     private static final int DEFAULT_FLAG = 0;
     private ResponseReceiver receiver;
@@ -95,10 +100,10 @@ public class KioskActivity extends Activity {
 //        textViewDate = (TextView) findViewById(R.id.textViewDate);
 //        textViewBattery = (TextView) findViewById(R.id.textViewBattery);
         textViewInitializingMsg = (TextView) findViewById(R.id.textViewInitializingMsg);
+        bWifi = (Button) findViewById(R.id.bWifi);
 //        imageViewBatteryPlugged = (ImageView) findViewById(R.id.imageViewBattryPlugged);
         audio = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-        progressBarDeviceInitializing =
-                (ProgressBar) findViewById(R.id.progressBarDeviceInitializing);
+        progressBarDeviceInitializing = (ProgressBar) findViewById(R.id.progressBarDeviceInitializing);
 //        seekBarBrightness = (SeekBar) findViewById(seekBarBrightness);
 //        seekBarBrightness.setMax(255);
         if (Constants.COSU_SECRET_EXIT) {
@@ -158,6 +163,19 @@ public class KioskActivity extends Activity {
         //TODO: access wifi
         //TODO: install other apps that have been requested
         //TODO: battery info
+        //todo: add spinner - see if india app is installed, show spinner - get gridview
+
+
+        bWifi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("jake", " wifi click");
+                Intent intent = new Intent("com.android.net.wifi.SETUP_WIFI_NETWORK");
+                intent.setComponent(ComponentName.unflattenFromString("com.android.settings/com.android.settings.wifi.WifiSetupActivity"));
+                intent.addCategory("android.intent.category.DEFAULT");
+                startActivity(intent);
+            }
+        });
 
 
         ComponentName component =
@@ -220,13 +238,13 @@ public class KioskActivity extends Activity {
             textViewInitializingMsg.setVisibility(View.INVISIBLE);
             progressBarDeviceInitializing.setVisibility(View.INVISIBLE);
         }
-//        displayDeviceInfo();
-//        checkAndDisplayDeviceInitializing();
+        displayDeviceInfo();
+        checkAndDisplayDeviceInitializing();
 
         //TODO: show startup animation?  important if app not installed yet
 
         //TODO: check if i-calQ is already installed, if installed, check if update is needed
-            installKioskApp();
+        installKioskApp();
 
 
 //        if (Preference.getBoolean(context.getApplicationContext(), Constants.AGENT_FRESH_START)) {
@@ -317,21 +335,21 @@ public class KioskActivity extends Activity {
         thread.start();
     }
 
-//    private void displayDeviceInfo() {
-//        Thread thread = new Thread() {
+    private void displayDeviceInfo() {
+        Thread thread = new Thread() {
 //            final DeviceState phoneState = new DeviceState(context);
 //            Power power = phoneState.getBatteryDetails();
-//            String time;
-//            String date;
-//
-//            @Override
-//            public void run() {
-//                try {
-//                    while (!isInterrupted()) {
-//                        Thread.sleep(1000);
-//                        runOnUiThread(new Runnable() {
-//                            @Override
-//                            public void run() {
+            String time;
+            String date;
+
+            @Override
+            public void run() {
+                try {
+                    while (!isInterrupted()) {
+                        Thread.sleep(1000);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
 //                                power = phoneState.getBatteryDetails();
 //                                time = new SimpleDateFormat(Constants.LAUNCHER_TIME_FORMAT,
 //                                        Locale.ENGLISH).format(Calendar.getInstance().getTime());
@@ -342,7 +360,7 @@ public class KioskActivity extends Activity {
 //                                textViewBattery.setText(Constants.LAUNCHER_BATTERY_LABEL +
 //                                        String.valueOf(power.getLevel()) +
 //                                        Constants.LAUNCHER_PERCENTAGE_MARK);
-//                                //Add an icon to indicate charging
+                                //Add an icon to indicate charging
 //                                String plugged = power.getPlugged();
 //                                if (plugged.equals(DeviceState.AC) ||
 //                                        plugged.equals(DeviceState.CHARGING)) {
@@ -350,17 +368,17 @@ public class KioskActivity extends Activity {
 //                                } else {
 //                                    imageViewBatteryPlugged.setVisibility(View.INVISIBLE);
 //                                }
-//                                refreshAppDrawer();
-//                            }
-//                        });
-//                    }
-//                } catch (InterruptedException e) {
-//                    Log.e(TAG, "Thread is interrupted");
-//                }
-//            }
-//        };
-//        thread.start();
-//    }
+                                refreshAppDrawer();
+                            }
+                        });
+                    }
+                } catch (InterruptedException e) {
+                    Log.e(TAG, "Thread is interrupted");
+                }
+            }
+        };
+        thread.start();
+    }
 
     @Override
     public void onBackPressed() {
@@ -438,11 +456,13 @@ public class KioskActivity extends Activity {
     private void refreshAppDrawer() {
         String appList = Preference.getString(context, Constants.KIOSK_APP_PACKAGE_NAME);
         if (appList == null) {
+            //show loading dialog
             if (Preference.getBoolean(context, Constants.PreferenceFlag.DEVICE_INITIALIZED)) {
                 gridView.setVisibility(View.INVISIBLE);
                 textViewNoApps.setVisibility(View.VISIBLE);
             }
         } else {
+            //hide dialog
             appDrawerAdapter.setAppList();
             appDrawerAdapter.notifyDataSetChanged();
             textViewNoApps.setVisibility(View.INVISIBLE);

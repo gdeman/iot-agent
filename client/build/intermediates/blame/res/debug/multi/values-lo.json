@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+        "outputFile": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 291
                 },
                 "from": {
-                    "file": "/Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/res/values-lo/values.xml",
+                    "file": "/Users/jake/.android/build-cache/b7aa307991e5e6e3f553f7bfb9de777eb595c34c/output/res/values-lo/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

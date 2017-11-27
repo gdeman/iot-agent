@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/res/merged/debug/raw/truststore.bks",
-        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/src/main/res/raw/truststore.bks"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/iDPProxy/build/intermediates/res/merged/debug/raw/truststore.bks",
+        "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/iDPProxy/src/main/res/raw/truststore.bks"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/res/merged/debug/raw/keystore.bks",
-        "source": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/src/main/res/raw/keystore.bks"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/iDPProxy/build/intermediates/res/merged/debug/raw/keystore.bks",
+        "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/iDPProxy/src/main/res/raw/keystore.bks"
     }
 ]

@@ -1,721 +1,721 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:18:1-284:12
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:18:1-284:12
 	package
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:19:5-33
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:19:5-33
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
 	android:sharedUserId
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:20:5-46
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:20:5-46
 	android:versionName
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:18:11-69
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:18:11-69
 	android:versionCode
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:22:5-68
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:21:5-67
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:22:22-65
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:22:22-65
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:23:5-88
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:23:5-88
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:23:22-85
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:23:22-85
 uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:24:5-90
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:24:5-90
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:24:22-87
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:24:22-87
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:25:5-81
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:25:22-78
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:25:22-78
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:26:5-81
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:26:5-81
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:26:22-78
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:26:22-78
 uses-permission#org.wso2.iot.agent.permission.C2D_MESSAGE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:27:5-81
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:26:5-78
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:27:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:27:22-78
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:27:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:28:5-75
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:28:5-75
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:28:22-72
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:28:22-72
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:29:5-82
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:22:5-81
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:29:5-82
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:29:22-79
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:29:22-79
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:30:5-76
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:30:5-76
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:30:22-73
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:30:22-73
 uses-permission#android.permission.READ_LOGS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:31:5-68
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:31:5-68
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:31:22-65
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:31:22-65
 uses-permission#android.permission.ACCESS_GPS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:32:5-69
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:32:5-69
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:32:22-66
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:32:22-66
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:33:5-79
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:33:5-79
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:33:22-76
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:33:22-76
 uses-permission#android.permisssion.ACCESS_COARSE_LOCATION
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:34:5-82
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:34:5-82
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:34:22-79
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:34:22-79
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:36:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:20:5-66
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:36:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:36:22-64
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:36:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:37:5-71
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:37:5-71
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:37:22-68
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:37:22-68
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:38:5-76
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:38:5-76
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:38:22-73
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:38:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:39:5-79
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:19:5-78
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:39:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:39:22-76
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:39:22-76
 uses-permission#android.permission.INTERACT_ACROSS_USERS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:40:5-80
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:40:5-80
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:40:22-77
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:40:22-77
 uses-permission#android.permission.GET_TASKS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:41:5-68
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:41:5-68
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:41:22-65
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:41:22-65
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:42:5-88
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:42:5-88
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:42:22-85
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:42:22-85
 uses-permission#org.wso2.iot.system.service.permission.ACCESS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:43:5-85
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:43:5-85
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:43:22-82
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:43:22-82
 uses-permission#org.wso2.iot.agent.permission.ACCESS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:44:5-76
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:44:5-76
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:44:22-73
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:44:22-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:45:5-47:38
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:45:5-47:38
 	android:maxSdkVersion
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:47:9-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:47:9-35
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:46:9-64
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:46:9-64
 permission#android.permission.REBOOT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:49:5-60
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:49:5-60
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:49:17-57
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:49:17-57
 permission#android.permission.READ_LOGS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:50:5-63
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:50:5-63
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:50:17-60
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:50:17-60
 permission#org.wso2.iot.agent.permission.ACCESS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:51:5-53:47
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:51:5-53:47
 	android:protectionLevel
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:53:9-44
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:53:9-44
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:52:9-60
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:52:9-60
 permission#org.wso2.iot.agent.permission.C2D_MESSAGE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:54:5-56:47
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:24:5-109
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:54:5-56:47
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:56:9-44
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:56:9-44
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:55:9-65
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:55:9-65
 application
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:58:5-282:19
-MERGED from [com.android.support:design:25.3.1] /Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Caladon/.android/build-cache/dcf22f497535d929d8a3428391add080030c39fb/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Caladon/.android/build-cache/86f647bdf1d40a97acfbe6caa5334f563629aec1/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/Caladon/.android/build-cache/0e8bd019e34b71ba516368daa2428427e90c231c/output/AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-core:10.2.4] /Users/Caladon/.android/build-cache/0064a9b49f6015269e6ef71f5fbbde50b1b810f0/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-messaging:10.2.4] /Users/Caladon/.android/build-cache/113285e0c802ed246939056ef90415c38e13ff71/output/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/Caladon/.android/build-cache/484cc9fe7297edde7a273f0f63172686d0f75d1c/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Caladon/.android/build-cache/90f6b3cbfc65c4c3bcbdf2a65844148c9cf26c62/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Caladon/.android/build-cache/08b7742522d2857fa3ca278e370e4ee0e602f779/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Caladon/.android/build-cache/c7fbeb3de67a32850b4e0287f5e964f675d14c32/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Caladon/.android/build-cache/8e7c62060d8140b0fd6c23bcbebd515a72245205/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Caladon/.android/build-cache/32f8c6f77ec7675de4f5c9b22ff399748227b11a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Caladon/.android/build-cache/d010113b74046d1e6594bf8b4bb41814be8a61e4/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Caladon/.android/build-cache/d0d186d4392cd131bf16e667cf5f54b9c5bea548/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.0.0] /Users/Caladon/.android/build-cache/8781d949efde9bc08f1fc1a70cf9b78968ebe0e5/output/AndroidManifest.xml:9:5-20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:58:5-282:19
+MERGED from [com.android.support:design:25.3.1] /Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jake/.android/build-cache/a04e7506b60ca17c757072ffd8ee136cfe8dd232/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jake/.android/build-cache/56b39390a6c18aaa2b05f97e35eed9ce289a6f2a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/jake/.android/build-cache/c520ca298a430cb5a52d263be7d60166e4baf280/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.4] /Users/jake/.android/build-cache/9a9653384b83db90002cfb5fd71c240277e6903e/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] /Users/jake/.android/build-cache/178c068b07d388d0665603ec4512ee152561921e/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/jake/.android/build-cache/34580fc256d884d4799e1461639a0d759b983703/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/jake/.android/build-cache/b7aa307991e5e6e3f553f7bfb9de777eb595c34c/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jake/.android/build-cache/688ed4dae1576abda91469004d918cfd1cebdf8e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jake/.android/build-cache/8ca67e6b41937479f4ab7e403e32d8b143d32ed6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jake/.android/build-cache/342293d4a0dc0df27bea6564d7dc3492de44865b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jake/.android/build-cache/571f344e87cd34c65605e9621207636071b5e7de/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jake/.android/build-cache/94193be7047c1f07c92198a242c459965d54d163/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jake/.android/build-cache/3a3f223d737064e2be2d8abc05ecf9c87d7de20a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jake/.android/build-cache/33e391a8ab9c3ce0ce4b60f0a9497f978a42b682/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /Users/jake/.android/build-cache/89ce11688ba1d81b6e065fb42fa86c4933687b5e/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:62:9-41
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:62:9-41
 	android:allowBackup
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:60:9-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:60:9-36
 	android:icon
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:61:9-45
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:61:9-45
 	android:largeHeap
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:63:9-33
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:63:9-33
 	android:theme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:64:9-40
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:64:9-40
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:59:9-41
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:59:9-41
 activity#org.wso2.iot.agent.activities.RegistrationActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:65:9-69
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:65:9-69
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:65:19-66
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:65:19-66
 activity#org.wso2.iot.agent.activities.DisplayDeviceInfoActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:66:9-68:74
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:66:9-68:74
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:68:13-71
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:68:13-71
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:67:13-65
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:67:13-65
 activity#org.wso2.iot.agent.EnableDeviceAdminActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:69:9-72:74
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:69:9-72:74
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:72:13-71
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:72:13-71
 	android:excludeFromRecents
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:71:13-46
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:71:13-46
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:70:13-54
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:70:13-54
 receiver#org.wso2.iot.agent.services.AgentDeviceAdminReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:74:9-88:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:74:9-88:20
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:76:13-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:76:13-36
 	android:permission
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:77:13-70
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:77:13-70
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:75:13-62
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:75:13-62
 intent-filter#android.app.action.DEVICE_ADMIN_ENABLED+android.app.action.PROFILE_PROVISIONING_COMPLETE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:78:13-83:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:78:13-83:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:81:17-82
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:81:17-82
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:81:25-79
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:81:25-79
 action#android.app.action.PROFILE_PROVISIONING_COMPLETE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:82:17-91
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:82:17-91
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:82:25-88
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:82:25-88
 meta-data#android.app.device_admin
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:85:13-87:62
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:85:13-87:62
 	android:resource
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:87:17-59
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:87:17-59
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:86:17-56
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:86:17-56
 receiver#org.wso2.iot.agent.services.AlarmReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:89:9-60
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:89:9-60
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:89:19-57
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:89:19-57
 receiver#org.wso2.iot.agent.events.EventAlarmReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:90:9-63
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:90:9-63
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:90:19-60
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:90:19-60
 receiver#org.wso2.iot.agent.utils.FileUploadReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:91:9-62
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:91:9-62
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:91:19-59
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:91:19-59
 receiver#org.wso2.iot.agent.utils.FileUploadCancelReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:92:9-68
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:92:9-68
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:92:19-65
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:92:19-65
 receiver#org.wso2.iot.agent.services.AgentStartupReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:93:9-107:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:93:9-107:20
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:95:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:95:13-35
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:96:13-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:96:13-36
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:94:13-58
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:94:13-58
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.DEFAULT+android.net.conn.CONNECTIVITY_CHANGE+org.ws2.iot.agent.APPLICATION_CRASHED+org.ws2.iot.agent.APPLICATION_UPDATED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:97:13-106:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:97:13-106:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:98:17-79
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:98:17-79
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:98:25-76
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:98:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:99:17-82
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:99:17-82
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:99:25-79
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:99:25-79
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:100:17-87
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:100:17-87
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:100:25-84
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:100:25-84
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:101:17-79
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:101:17-79
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:101:25-76
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:101:25-76
 action#org.ws2.iot.agent.APPLICATION_UPDATED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:102:17-80
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:102:17-80
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:102:25-77
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:102:25-77
 action#org.ws2.iot.agent.APPLICATION_CRASHED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:103:17-80
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:103:17-80
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:103:25-77
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:103:25-77
 category#android.intent.category.DEFAULT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:105:17-76
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:105:17-76
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:105:27-73
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:105:27-73
 receiver#org.wso2.iot.agent.services.NetworkConnectedReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:108:9-116:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:108:9-116:20
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:110:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:110:13-35
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:111:13-37
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:111:13-37
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:109:13-62
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:109:13-62
 intent-filter#android.net.conn.CONNECTIVITY_CHANGE+android.net.wifi.WIFI_STATE_CHANGED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:112:13-115:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:112:13-115:29
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:113:17-78
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:113:17-78
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:113:25-75
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:113:25-75
 receiver#org.wso2.iot.agent.services.NotificationReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:117:9-123:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:117:9-123:20
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:119:13-37
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:119:13-37
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:118:13-58
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:118:13-58
 intent-filter#android.intent.category.DEFAULT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:120:13-122:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:120:13-122:29
 receiver#org.wso2.iot.agent.services.SystemServiceResponseReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:124:9-130:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:124:9-130:20
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:126:13-37
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:126:13-37
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:125:13-67
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:125:13-67
 receiver#org.wso2.iot.agent.events.listeners.ApplicationStateListener
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:131:9-140:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:131:9-140:20
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:131:19-76
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:131:19-76
 intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_DATA_CLEARED+android.intent.action.PACKAGE_REMOVED+android.intent.action.PACKAGE_REPLACED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:132:13-139:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:132:13-139:29
 action#android.intent.action.PACKAGE_ADDED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:133:17-78
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:133:17-78
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:133:25-75
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:133:25-75
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:134:17-80
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:134:17-80
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:134:25-77
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:134:25-77
 action#android.intent.action.PACKAGE_REPLACED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:135:17-81
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:135:17-81
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:135:25-78
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:135:25-78
 action#android.intent.action.PACKAGE_DATA_CLEARED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:136:17-85
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:136:17-85
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:136:25-82
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:136:25-82
 data
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:138:17-50
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:138:17-50
 	android:scheme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:138:23-47
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:138:23-47
 receiver#org.wso2.iot.agent.events.listeners.KioskAppInstallationListener
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:141:9-149:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:141:9-149:20
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:143:13-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:143:13-36
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:142:13-74
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:142:13-74
 intent-filter#android.intent.action.PACKAGE_ADDED
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:144:13-148:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:144:13-148:29
 service#org.wso2.iot.agent.services.FileUploadService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:151:9-63
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:151:9-63
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:151:18-60
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:151:18-60
 service#org.wso2.iot.agent.services.FileDownloadService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:152:9-65
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:152:9-65
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:152:18-62
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:152:18-62
 service#org.wso2.iot.agent.services.ApplicationManagementService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:153:9-161:19
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:153:9-161:19
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:155:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:155:13-35
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:156:13-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:156:13-36
 	android:permission
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:157:13-70
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:157:13-70
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:154:13-66
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:154:13-66
 intent-filter#org.wso2.iot.agent.START_SERVICE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:158:13-160:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:158:13-160:29
 action#org.wso2.iot.agent.START_SERVICE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:159:17-75
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:159:17-75
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:159:25-72
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:159:25-72
 service#org.wso2.iot.agent.services.EnrollmentService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:162:9-170:19
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:162:9-170:19
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:164:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:164:13-35
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:165:13-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:165:13-36
 	android:permission
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:166:13-70
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:166:13-70
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:163:13-55
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:163:13-55
 intent-filter#org.wso2.iot.agent.enrollment.START_SERVICE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:167:13-169:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:167:13-169:29
 action#org.wso2.iot.agent.enrollment.START_SERVICE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:168:17-86
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:168:17-86
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:168:25-83
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:168:25-83
 service#org.wso2.iot.agent.FCMMessagingService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:171:9-175:19
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:171:9-175:19
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:171:18-53
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:171:18-53
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:172:13-174:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:172:13-174:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:173:17-78
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:173:17-78
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:173:25-75
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:173:25-75
 service#org.wso2.iot.agent.services.VPNService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:176:9-182:19
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:176:9-182:19
 	android:permission
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:178:13-69
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:178:13-69
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:177:13-48
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:177:13-48
 intent-filter#android.net.VpnService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:179:13-181:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:179:13-181:29
 action#android.net.VpnService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:180:17-65
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:180:17-65
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:180:25-62
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:180:25-62
 service#org.wso2.iot.agent.services.location.LocationService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:183:9-185:38
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:183:9-185:38
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:185:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:185:13-35
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:184:13-62
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:184:13-62
 service#org.wso2.iot.agent.services.NetworkInfoService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:186:9-188:38
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:186:9-188:38
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:188:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:188:13-35
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:187:13-56
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:187:13-56
 service#org.wso2.iot.agent.services.kiosk.KioskLockDownService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:189:9-72
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:189:9-72
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:189:18-69
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:189:18-69
 service#org.wso2.iot.agent.services.kiosk.KioskUnlockService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:191:9-70
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:191:9-70
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:191:18-67
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:191:18-67
 service#org.wso2.iot.agent.services.kiosk.KioskMsgAlarmService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:192:9-193:37
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:192:9-193:37
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:193:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:193:13-35
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:192:18-69
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:192:18-69
 activity#org.wso2.iot.agent.activities.AlreadyRegisteredActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:195:9-74
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:195:9-74
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:195:19-71
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:195:19-71
 activity#org.wso2.iot.agent.activities.AuthenticationActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:196:9-198:71
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:196:9-198:71
 	android:windowSoftInputMode
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:198:13-68
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:198:13-68
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:197:13-62
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:197:13-62
 activity#org.wso2.iot.agent.AuthenticationErrorActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:199:9-201:52
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:199:9-201:52
 	android:screenOrientation
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:201:13-49
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:201:13-49
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:200:13-56
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:200:13-56
 activity#org.wso2.iot.agent.activities.ServerConfigsActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:202:9-70
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:202:9-70
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:202:19-67
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:202:19-67
 activity#org.wso2.iot.agent.activities.DisclaimerActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:203:9-205:77
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:203:9-205:77
 	android:configChanges
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:205:13-74
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:205:13-74
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:204:13-58
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:204:13-58
 activity#org.wso2.iot.agent.activities.PinCodeActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:206:9-208:71
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:206:9-208:71
 	android:windowSoftInputMode
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:208:13-68
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:208:13-68
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:207:13-55
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:207:13-55
 activity#org.wso2.iot.agent.AlertActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:209:9-212:76
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:209:9-212:76
 	android:screenOrientation
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:211:13-49
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:211:13-49
 	android:theme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:212:13-73
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:212:13-73
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:210:13-42
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:210:13-42
 activity#org.wso2.iot.agent.LockActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:213:9-216:59
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:213:9-216:59
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:216:13-56
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:216:13-56
 	android:configChanges
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:215:13-74
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:215:13-74
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:214:13-41
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:214:13-41
 activity#org.wso2.iot.agent.activities.EnableProfileActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:218:9-220:48
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:218:9-220:48
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:220:13-45
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:220:13-45
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:219:13-61
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:219:13-61
 activity#org.wso2.iot.agent.WorkProfileManager
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:221:9-224:52
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:221:9-224:52
 	android:screenOrientation
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:224:13-49
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:224:13-49
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:223:13-58
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:223:13-58
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:222:13-47
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:222:13-47
 activity#org.wso2.iot.agent.activities.WorkProfileSelectionActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:225:9-77
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:225:9-77
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:225:19-74
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:225:19-74
 activity#org.wso2.iot.agent.AppLockActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:226:9-230:74
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:226:9-230:74
 	android:screenOrientation
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:229:13-49
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:229:13-49
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:228:13-57
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:228:13-57
 	android:theme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:230:13-71
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:230:13-71
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:227:13-44
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:227:13-44
 service#org.wso2.iot.agent.services.AppLockService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:232:9-235:73
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:232:9-235:73
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:234:13-37
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:234:13-37
 	android:permission
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:235:13-70
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:235:13-70
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:233:13-52
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:233:13-52
 service#org.wso2.iot.agent.InstanceIDListenerService
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:236:9-240:19
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:236:9-240:19
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:236:18-59
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:236:18-59
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:237:13-239:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:237:13-239:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:238:17-80
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:238:17-80
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:238:25-77
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:238:25-77
 activity#org.wso2.iot.agent.KioskActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:242:9-245:57
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:242:9-245:57
 	android:screenOrientation
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:245:13-55
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:245:13-55
 	android:theme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:244:13-71
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:244:13-71
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:243:13-42
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:243:13-42
 activity#org.wso2.iot.agent.activities.SplashActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:246:9-256:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:246:9-256:20
 	android:label
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:249:13-45
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:249:13-45
 	android:configChanges
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:248:13-74
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:248:13-74
 	android:theme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:250:13-51
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:250:13-51
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:247:13-54
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:247:13-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:251:13-255:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:251:13-255:29
 action#android.intent.action.MAIN
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:252:17-69
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:252:17-69
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:252:25-66
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:252:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:254:17-77
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:254:17-77
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:254:27-74
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:254:27-74
 activity#org.wso2.iot.agent.activities.KioskRestrictionActivity
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:258:9-260:74
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:258:9-260:74
 	android:theme
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:260:13-71
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:260:13-71
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:259:13-64
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:259:13-64
 receiver#org.wso2.iot.agent.services.LocationUpdateReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:262:9-269:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:262:9-269:20
 	android:enabled
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:264:13-35
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:264:13-35
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:265:13-36
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:265:13-36
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:263:13-60
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:263:13-60
 intent-filter#org.ws2.iot.agent.LOCATION_UPDATE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:266:13-268:29
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:266:13-268:29
 action#org.ws2.iot.agent.LOCATION_UPDATE
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:267:17-76
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:267:17-76
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:267:25-73
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:267:25-73
 receiver#org.wso2.iot.agent.services.kiosk.KioskAlarmReceiver
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:270:9-80
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:270:9-80
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:270:19-68
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:270:19-68
 provider#android.support.v4.content.FileProvider
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:273:9-281:20
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:273:9-281:20
 	android:authorities
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:275:13-60
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:275:13-60
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
 	android:grantUriPermissions
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:277:13-47
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:277:13-47
 	android:exported
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:276:13-37
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:276:13-37
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:274:13-67
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:274:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:278:13-280:58
+ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:278:13-280:58
 	android:resource
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:280:17-55
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:280:17-55
 	android:name
-		ADDED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml:279:17-67
+		ADDED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml:279:17-67
 uses-sdk
-INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] /Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Caladon/.android/build-cache/dcf22f497535d929d8a3428391add080030c39fb/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Caladon/.android/build-cache/86f647bdf1d40a97acfbe6caa5334f563629aec1/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Caladon/.android/build-cache/c30e6d7f141318d822bfe8fa5617afdcd525355d/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/Caladon/.android/build-cache/0e8bd019e34b71ba516368daa2428427e90c231c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:10.2.4] /Users/Caladon/.android/build-cache/0064a9b49f6015269e6ef71f5fbbde50b1b810f0/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:10.2.4] /Users/Caladon/.android/build-cache/113285e0c802ed246939056ef90415c38e13ff71/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/Caladon/.android/build-cache/484cc9fe7297edde7a273f0f63172686d0f75d1c/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Caladon/.android/build-cache/90f6b3cbfc65c4c3bcbdf2a65844148c9cf26c62/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Caladon/.android/build-cache/08b7742522d2857fa3ca278e370e4ee0e602f779/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Caladon/.android/build-cache/c7fbeb3de67a32850b4e0287f5e964f675d14c32/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Caladon/.android/build-cache/8e7c62060d8140b0fd6c23bcbebd515a72245205/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Caladon/.android/build-cache/32f8c6f77ec7675de4f5c9b22ff399748227b11a/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Caladon/.android/build-cache/d010113b74046d1e6594bf8b4bb41814be8a61e4/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Caladon/.android/build-cache/d0d186d4392cd131bf16e667cf5f54b9c5bea548/output/AndroidManifest.xml:5:5-7:41
-MERGED from [client:iDPProxy:unspecified:debug] /Users/Caladon/Downloads/cdmf-agent-android-master/client/iDPProxy/build/intermediates/bundles/debug/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.volley:volley:1.0.0] /Users/Caladon/.android/build-cache/8781d949efde9bc08f1fc1a70cf9b78968ebe0e5/output/AndroidManifest.xml:7:5-43
+INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] /Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jake/.android/build-cache/a04e7506b60ca17c757072ffd8ee136cfe8dd232/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jake/.android/build-cache/56b39390a6c18aaa2b05f97e35eed9ce289a6f2a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jake/.android/build-cache/4c646647d11e729cb459bc98ac7005da5a932a1c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/jake/.android/build-cache/c520ca298a430cb5a52d263be7d60166e4baf280/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:10.2.4] /Users/jake/.android/build-cache/9a9653384b83db90002cfb5fd71c240277e6903e/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] /Users/jake/.android/build-cache/178c068b07d388d0665603ec4512ee152561921e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /Users/jake/.android/build-cache/34580fc256d884d4799e1461639a0d759b983703/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /Users/jake/.android/build-cache/b7aa307991e5e6e3f553f7bfb9de777eb595c34c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jake/.android/build-cache/688ed4dae1576abda91469004d918cfd1cebdf8e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jake/.android/build-cache/8ca67e6b41937479f4ab7e403e32d8b143d32ed6/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jake/.android/build-cache/342293d4a0dc0df27bea6564d7dc3492de44865b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jake/.android/build-cache/571f344e87cd34c65605e9621207636071b5e7de/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jake/.android/build-cache/94193be7047c1f07c92198a242c459965d54d163/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jake/.android/build-cache/3a3f223d737064e2be2d8abc05ecf9c87d7de20a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jake/.android/build-cache/33e391a8ab9c3ce0ce4b60f0a9497f978a42b682/output/AndroidManifest.xml:5:5-7:41
+MERGED from [iot-agentv2:iDPProxy:unspecified:debug] /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/iDPProxy/build/intermediates/bundles/debug/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.volley:volley:1.0.0] /Users/jake/.android/build-cache/89ce11688ba1d81b6e065fb42fa86c4933687b5e/output/AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] /Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
-		INJECTED from /Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
+		INJECTED from /Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Caladon/.android/build-cache/dcf22f497535d929d8a3428391add080030c39fb/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Caladon/.android/build-cache/86f647bdf1d40a97acfbe6caa5334f563629aec1/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/Caladon/.android/build-cache/c30e6d7f141318d822bfe8fa5617afdcd525355d/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/Caladon/.android/build-cache/0e8bd019e34b71ba516368daa2428427e90c231c/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Caladon/.android/build-cache/90f6b3cbfc65c4c3bcbdf2a65844148c9cf26c62/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Caladon/.android/build-cache/08b7742522d2857fa3ca278e370e4ee0e602f779/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Caladon/.android/build-cache/c7fbeb3de67a32850b4e0287f5e964f675d14c32/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Caladon/.android/build-cache/8e7c62060d8140b0fd6c23bcbebd515a72245205/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Caladon/.android/build-cache/32f8c6f77ec7675de4f5c9b22ff399748227b11a/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Caladon/.android/build-cache/d010113b74046d1e6594bf8b4bb41814be8a61e4/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jake/.android/build-cache/a04e7506b60ca17c757072ffd8ee136cfe8dd232/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jake/.android/build-cache/56b39390a6c18aaa2b05f97e35eed9ce289a6f2a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jake/.android/build-cache/4c646647d11e729cb459bc98ac7005da5a932a1c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/jake/.android/build-cache/c520ca298a430cb5a52d263be7d60166e4baf280/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jake/.android/build-cache/688ed4dae1576abda91469004d918cfd1cebdf8e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jake/.android/build-cache/8ca67e6b41937479f4ab7e403e32d8b143d32ed6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jake/.android/build-cache/342293d4a0dc0df27bea6564d7dc3492de44865b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jake/.android/build-cache/571f344e87cd34c65605e9621207636071b5e7de/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jake/.android/build-cache/94193be7047c1f07c92198a242c459965d54d163/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jake/.android/build-cache/3a3f223d737064e2be2d8abc05ecf9c87d7de20a/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/AndroidManifest.xml:26:9-47
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/Caladon/.android/build-cache/4539b870c3acebbc2d3d948b4e33ebcd700ce2fb/output/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /Users/jake/.android/build-cache/905d463f30d6aa2c619dbe09b369b09d667db99b/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/Caladon/.android/build-cache/3388bfe57a8eac752cbb66289f6ecf4f211512cd/output/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /Users/jake/.android/build-cache/6dbb031cc25e0085792c070bef84b853b1842c76/output/AndroidManifest.xml:32:16-87
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:10.2.4] /Users/Caladon/.android/build-cache/113285e0c802ed246939056ef90415c38e13ff71/output/AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] /Users/jake/.android/build-cache/178c068b07d388d0665603ec4512ee152561921e/output/AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /Users/Caladon/.android/build-cache/113285e0c802ed246939056ef90415c38e13ff71/output/AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /Users/jake/.android/build-cache/178c068b07d388d0665603ec4512ee152561921e/output/AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /Users/Caladon/.android/build-cache/113285e0c802ed246939056ef90415c38e13ff71/output/AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /Users/jake/.android/build-cache/178c068b07d388d0665603ec4512ee152561921e/output/AndroidManifest.xml:23:18-87
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/Caladon/.android/build-cache/d2b34e8dbdfe22634ed18ce52f04ef8361bd2e71/output/AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /Users/jake/.android/build-cache/471831503236335a1c37884cf2efb75744a37984/output/AndroidManifest.xml:43:18-82
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/Caladon/.android/build-cache/9acc0f1f13cca92eb819732dcb57092f11ab00c2/output/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /Users/jake/.android/build-cache/0595280d6bab618a6b65be15df4017f79d60f773/output/AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/jake/.android/build-cache/b7aa307991e5e6e3f553f7bfb9de777eb595c34c/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/jake/.android/build-cache/b7aa307991e5e6e3f553f7bfb9de777eb595c34c/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/Caladon/.android/build-cache/1eebdd5f81018352a620b2a24cdb8acb12097414/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /Users/jake/.android/build-cache/b7aa307991e5e6e3f553f7bfb9de777eb595c34c/output/AndroidManifest.xml:20:20-65

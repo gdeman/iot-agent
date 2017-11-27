@@ -86,7 +86,7 @@ public class RuntimeInfo {
 
         for (String topCommandRow : topCommandRows) {
             if (topCommandRow != null && !topCommandRow.isEmpty()
-                && !topCommandRow.contains(" root ")) {
+                    && !topCommandRow.contains(" root ")) {
                 String[] columns = topCommandRow.replaceFirst("^\\s*", "").split(" ");
                 String pidColumnValue = columns[0].trim();
 
@@ -122,7 +122,7 @@ public class RuntimeInfo {
 
         for (String topCommandRow : topCommandRows) {
             if (topCommandRow != null && !topCommandRow.isEmpty()
-                && !topCommandRow.contains(" root ")) {
+                    && !topCommandRow.contains(" root ")) {
                 String[] columns = topCommandRow.replaceFirst("^\\s*", "").split(" ");
                 String pidColumnValue = columns[0].trim();
 

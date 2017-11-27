@@ -36,7 +36,7 @@ public final class BuildConfig {
   public static final String HEC_TOKEN = "<SPLUNK_HEC_TOKEN>";
   public static final boolean HIDE_ERROR_DIALOG = false;
   public static final boolean HIDE_LOGIN_UI = false;
-  public static final boolean HIDE_UNREGISTER_BUTTON = true;
+  public static final boolean HIDE_UNREGISTER_BUTTON = false;
   public static final String KIOSK_URL = "https://www.clevercoding.com/adhocs/i-calQ/tSHShell-india-release-2017-11-21.apk";
   public static final boolean LOCATION_PUBLISHING_ENABLED = false;
   public static final String LOG_LEVEL = "*:W";
@@ -52,7 +52,7 @@ public final class BuildConfig {
   public static final boolean SKIP_WORK_PROFILE_CREATION = false;
   public static final String SPLUNK_API_KEY = "<SET_PUBLISHER>";
   public static final String SPLUNK_DATA_COLLECTOR_TYPE = "MINT";
-  public static final boolean SYSTEM_APP_ENABLED = true;
+  public static final boolean SYSTEM_APP_ENABLED = false;
   public static final String SYSTEM_SERVICE_PACKAGE = "org.wso2.emm.system.service";
   public static final boolean WIFI_SCANNING_ENABLED = false;
 }

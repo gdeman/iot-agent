@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+        "outputFile": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/src/main/res/values-sw720dp-land/dimens.xml",
+                    "file": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/values-sw720dp-land/dimens.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,

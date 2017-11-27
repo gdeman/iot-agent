@@ -5,119 +5,123 @@
     android:id="@+id/activity_kiosk_enrollment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:keepScreenOn="true"
     android:launchMode="singleTask"
-    android:background="@color/white"
     tools:context="org.wso2.iot.agent.KioskActivity">
+
     <ImageView
         android:id="@+id/background_top"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
         android:src="@drawable/kiosk_background_top"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
-
-    />
-    <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_below="@+id/background_top"
-        android:layout_above="@+id/background_bottom"
-        android:src="@drawable/kiosk_background"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
 
         />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/background_bottom"
+        android:layout_below="@+id/background_top"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/kiosk_background"
+
+        />
+
     <ImageView
         android:id="@+id/background_bottom"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/kiosk_background_bottom"
-        android:scaleType="fitXY"
         android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/kiosk_background_bottom"
 
         />
 
     <Button
-        android:text="Exit"
+        android:id="@+id/buttonExit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonExit"
         android:layout_above="@+id/buttonStart"
-        android:layout_toStartOf="@+id/buttonStart"
+        android:layout_marginBottom="205dp"
         android:layout_marginEnd="97dp"
-        android:visibility="gone"
-        android:layout_marginBottom="205dp" />
+        android:layout_toStartOf="@+id/buttonStart"
+        android:text="Exit"
+        android:visibility="gone" />
 
     <Button
-        android:text="Start"
+        android:id="@+id/buttonStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonStart"
         android:layout_above="@+id/buttonLaunch"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="335dp"
         android:layout_marginStart="59dp"
-        android:visibility="gone"
-        android:layout_marginBottom="335dp" />
+        android:text="Start"
+        android:visibility="gone" />
 
     <Button
-        android:text="Launch"
+        android:id="@+id/buttonLaunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonLaunch"
         android:layout_alignParentTop="true"
-        android:visibility="gone"
-        android:layout_alignStart="@+id/buttonStart" />
+        android:layout_alignStart="@+id/buttonStart"
+        android:text="Launch"
+        android:visibility="gone" />
 
     <GridView
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/background_top"
         android:layout_above="@+id/background_bottom"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/background_top"
         android:columnWidth="90dp"
-        android:numColumns="auto_fit"
-        android:verticalSpacing="10dp"
-        android:horizontalSpacing="10dp"
-        android:stretchMode="columnWidth"
         android:gravity="center"
-        android:visibility="invisible"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="auto_fit"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:listSelector="@android:color/transparent"
-        android:layout_alignParentStart="true" />
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"
+        android:visibility="invisible" />
 
     <TextView
-        android:text="@string/wso2"
+        android:id="@+id/textViewKiosk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewKiosk"
-        android:textColor="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true" />
+        android:text="@string/wso2"
+        android:textColor="@color/colorPrimary" />
 
     <TextView
-        android:text="No apps available"
+        android:id="@+id/textViewNoApps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:visibility="visible"
+        android:text="No apps available"
         android:textColor="@color/colorPrimary"
-        android:id="@+id/textViewNoApps" />
+        android:visibility="visible" />
 
     <TextView
+        android:id="@+id/textViewWipeData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:id="@+id/textViewWipeData"
         android:text="@string/wipe_the_device"
-        android:visibility="invisible"/>
+        android:textColor="@color/colorPrimary"
+        android:visibility="invisible" />
+
     <ProgressBar
         android:id="@+id/progressBarDeviceInitializing"
         style="?android:attr/progressBarStyleInverse"
@@ -125,18 +129,27 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:visibility="invisible"/>
+        android:visibility="invisible" />
 
     <TextView
-        android:text="Your device is being initialized.\nThis may take several minutes."
-        android:lines="2"
+        android:id="@+id/textViewInitializingMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/progressBarDeviceInitializing"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_below="@id/progressBarDeviceInitializing"
+        android:lines="2"
+        android:text="Downloading i-calQ app..."
         android:textColor="@color/colorPrimary"
-        android:id="@+id/textViewInitializingMsg"
-        android:visibility="invisible"/>
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="Set Wifi" />
 
 </RelativeLayout>

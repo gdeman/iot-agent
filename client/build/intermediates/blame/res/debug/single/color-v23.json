@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/Caladon/.android/build-cache/d40612f3ded780e89915e8dc00a5343d581f2e02/output/res/color-v23/design_tint_password_toggle.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_default.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/Caladon/Downloads/cdmf-agent-android-master/client/client/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/Caladon/.android/build-cache/04049a038d901e51820bc7473ecb48e5f11028f0/output/res/color-v23/abc_tint_edittext.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/color-v23/abc_tint_switch_track.xml"
     }
 ]

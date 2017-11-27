@@ -577,14 +577,14 @@ android {
             // System service specific configurations.
             // SYSTEM_APP_ENABLED: This is to set if the system app will also be installed.
             // If this is set org.wso2.emm.system.service must also be available in the device.
-            buildConfigField "boolean", "SYSTEM_APP_ENABLED", "true"
+            buildConfigField "boolean", "SYSTEM_APP_ENABLED", "false"
             // SYSTEM_SERVICE_PACKAGE: If system service app is in use, the package name of it is
             // defined here so that the agent knows the package name of the system service to
             // contact.
             buildConfigField "String", "SYSTEM_SERVICE_PACKAGE", "\"org.wso2.emm.system.service\""
             // HIDE_UNREGISTER_BUTTON: Hide the unregister button after enrollment so that  the
             // unenrollment can only be done remotely.
-            buildConfigField "boolean", "HIDE_UNREGISTER_BUTTON", "true"
+            buildConfigField "boolean", "HIDE_UNREGISTER_BUTTON", "false"
             // Auto enrollment specific configurations
             // AUTO_ENROLLMENT_BACKGROUND_SERVICE_ENABLED: This is to specify if the enrollment
             // will be done in a background service. This is typically related to mutual SSL based
