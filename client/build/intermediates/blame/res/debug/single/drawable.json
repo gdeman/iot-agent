@@ -8,12 +8,12 @@
         "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/drawable/btn_orange_non_prominent.xml"
     },
     {
-        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",

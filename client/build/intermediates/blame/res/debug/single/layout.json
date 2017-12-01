@@ -12,16 +12,16 @@
         "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/dialog_kiosk.xml"
     },
     {
-        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/activity_authentication_error.xml",
+        "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/activity_authentication_error.xml"
     },
     {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/activity_pin_code.xml",
         "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/activity_pin_code.xml"
     },
     {
-        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/activity_authentication_error.xml",
-        "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/activity_authentication_error.xml"
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -56,24 +56,24 @@
         "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/activity_enable_work_profile.xml"
     },
     {
-        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/Users/jake/.android/build-cache/afd20f2d73327309d5fee068cfa0756d301be8ae/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/activity_server_configs.xml",
-        "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/activity_server_configs.xml"
-    },
-    {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/jake/.android/build-cache/2a17060cc0359a66e842929e80ddbd5af9d28805/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/activity_server_configs.xml",
+        "source": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/src/main/res/layout/activity_server_configs.xml"
     },
     {
         "merged": "/Users/jake/AndroidStudioProjects/cleverCoding/iot-agentv2/client/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",

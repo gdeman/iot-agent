@@ -106,6 +106,7 @@ public class KioskActivity extends Activity {
         progressBarDeviceInitializing = (ProgressBar) findViewById(R.id.progressBarDeviceInitializing);
 //        seekBarBrightness = (SeekBar) findViewById(seekBarBrightness);
 //        seekBarBrightness.setMax(255);
+        progressBarDeviceInitializing.setVisibility(View.VISIBLE);
         if (Constants.COSU_SECRET_EXIT) {
             textViewKiosk.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -457,12 +458,15 @@ public class KioskActivity extends Activity {
         String appList = Preference.getString(context, Constants.KIOSK_APP_PACKAGE_NAME);
         if (appList == null) {
             //show loading dialog
+            progressBarDeviceInitializing.setVisibility(View.VISIBLE);
             if (Preference.getBoolean(context, Constants.PreferenceFlag.DEVICE_INITIALIZED)) {
                 gridView.setVisibility(View.INVISIBLE);
                 textViewNoApps.setVisibility(View.VISIBLE);
+
             }
         } else {
             //hide dialog
+            progressBarDeviceInitializing.setVisibility(View.INVISIBLE);
             appDrawerAdapter.setAppList();
             appDrawerAdapter.notifyDataSetChanged();
             textViewNoApps.setVisibility(View.INVISIBLE);

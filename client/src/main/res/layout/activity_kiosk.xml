@@ -91,7 +91,10 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:stretchMode="columnWidth"
         android:verticalSpacing="10dp"
-        android:visibility="invisible" />
+        android:visibility="invisible">
+
+
+    </GridView>
 
     <TextView
         android:id="@+id/textViewKiosk"
@@ -150,6 +153,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="150dp"
-        android:text="Set Wifi" />
+        android:text="Set Wifi"
+        android:visibility="visible" />
 
 </RelativeLayout>
